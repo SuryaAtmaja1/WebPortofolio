@@ -1,0 +1,102 @@
+*,
+html{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image:url(Coffe\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+
+.ul-navbar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+.h1-navbar{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #020b0a;
+    font-style: oblique;
+}
+
+.a-navbar{
+    font-size: 300%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #020b0a;
+    text-decoration: none;
+    background-color: #58a49d;
+    border-radius: 30px;
+    box-shadow: 9px 8px 0px 3px rgba(0,0,0,0.64);
+-webkit-box-shadow: 9px 8px 0px 3px rgba(0,0,0,0.64);
+-moz-box-shadow: 9px 8px 0px 3px rgba(0,0,0,0.64);
+}
+
+
+.ul-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 15px;
+}
+
+.a-instagram{
+    background-color: #58a49d;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.a-cv {
+    background-color: #58a49d;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.instagram-content {
+    width: 250px;
+    height: auto;
+}
+.instagram-content:hover {
+    opacity: 0.5;
+}
+.cv-content{
+    width: 250px;
+    height: auto;
+}
+.cv-content:hover {
+    opacity: 0.5;
+}
+
+
